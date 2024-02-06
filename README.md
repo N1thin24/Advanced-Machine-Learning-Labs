@@ -1,6 +1,6 @@
 # Advanced-Machine-Learning-Labs
 
-**Gaussian Mixture Model**:
+1)**Gaussian Mixture Model**:
 
 A Gaussian mixture model is a probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. After estimation of those parameters we get an estimation of the distribution of our data. For the clustering task, one can think of mixture models as generalizing k-means clustering to incorporate information about the covariance structure of the data as well as the centers of the latent Gaussians.
 
@@ -10,7 +10,7 @@ The following image displays two clustering results from applying the K-Means an
 
 ![image](https://github.com/N1thin24/Advanced-Machine-Learning-Labs/assets/107985125/f6eb06f8-a10b-4146-b64f-d23e88ff647c)
 
-**BIC, AIC and Cross-Validation**
+2)**BIC, AIC and Cross-Validation**
 
 AIC estimates the relative amount of information lost by a given model; the less information lost, the higher the quality of the model. It favors models that fit the data well while penalizing for complexity (number of parameters).
 
@@ -23,7 +23,7 @@ Next, we utilise Cross-Validation as a method of evaluating our model. The basic
 Finally, we define a 99% confidence interval of our observed accuracy on the test set for which we believe the real accuracy should be using the Central Limit Theory (CLT) and Hoeffding inequality.
 
 
-**PCA and TSNE**
+3)**PCA and TSNE**
 
 In this lab, We apply PCA to a medical dataset, in order to do data analysis and to finally tell which medical features could allow doctors to diagnose breast cancer.
 First, we plot the variance returned vs number of principal components

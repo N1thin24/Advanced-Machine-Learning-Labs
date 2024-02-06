@@ -1,6 +1,6 @@
 # Advanced-Machine-Learning-Labs
 
-GMM:
+**Gaussian Mixture Model**:
 
 A Gaussian mixture model is a probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. After estimation of those parameters we get an estimation of the distribution of our data. For the clustering task, one can think of mixture models as generalizing k-means clustering to incorporate information about the covariance structure of the data as well as the centers of the latent Gaussians.
 
@@ -9,4 +9,16 @@ The following image displays two clustering results from applying the K-Means an
 ![image](https://github.com/N1thin24/Advanced-Machine-Learning-Labs/assets/107985125/d830880c-c60a-492e-806a-21aa64ed9ef9)
 
 ![image](https://github.com/N1thin24/Advanced-Machine-Learning-Labs/assets/107985125/f6eb06f8-a10b-4146-b64f-d23e88ff647c)
+
+**BIC, AIC and Cross-Validation**
+
+AIC estimates the relative amount of information lost by a given model; the less information lost, the higher the quality of the model. It favors models that fit the data well while penalizing for complexity (number of parameters).
+
+BIC is similar to AIC but adds a stronger penalty for models with more parameters. It's based on Bayesian probability and penalizes complexity more heavily, often resulting in simpler models than those selected by AIC.
+
+In this lab, we apply AIC and BIC to a GaussianMixtureModel and a logistic regression model to find the optimal number of mixtures and parameters respectively.
+
+Next, we utilise Cross-Validation as a method of evaluating our model. The basic idea is to partition the dataset into K subsets, often called "folds," and then train and evaluate the model K times, each time using a different fold as the test set and the remaining folds as the training set. This process allows the model to be tested on different subsets of the data, providing a more robust estimate of its performance.
+
+Finally, we define a 99% confidence interval of our observed accuracy on the test set for which we believe the real accuracy should be using the Central Limit Theory (CLT).
 

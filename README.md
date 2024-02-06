@@ -26,10 +26,12 @@ Finally, we define a 99% confidence interval of our observed accuracy on the tes
 **PCA and TSNE**
 
 In this lab, We apply PCA to a medical dataset, in order to do data analysis and to finally tell which medical features could allow doctors to diagnose breast cancer.
-
 First, we plot the variance returned vs number of principal components
+
+
 ![image](https://github.com/N1thin24/Advanced-Machine-Learning-Labs/assets/107985125/d9064b3c-73c0-46de-be2e-941d698f9a31)
 ![image](https://github.com/N1thin24/Advanced-Machine-Learning-Labs/assets/107985125/95a5ed21-6e7b-4f84-9a36-4e2023a0020a)
+
  
 We then find the most important principal components to retain as well as a plot of the data points as well as their labels along the first two principal components.
 ![image](https://github.com/N1thin24/Advanced-Machine-Learning-Labs/assets/107985125/6a6755e3-f012-4091-a04b-4ef83a9459a5)

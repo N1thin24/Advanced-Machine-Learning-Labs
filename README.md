@@ -20,5 +20,5 @@ In this lab, we apply AIC and BIC to a GaussianMixtureModel and a logistic regre
 
 Next, we utilise Cross-Validation as a method of evaluating our model. The basic idea is to partition the dataset into K subsets, often called "folds," and then train and evaluate the model K times, each time using a different fold as the test set and the remaining folds as the training set. This process allows the model to be tested on different subsets of the data, providing a more robust estimate of its performance.
 
-Finally, we define a 99% confidence interval of our observed accuracy on the test set for which we believe the real accuracy should be using the Central Limit Theory (CLT).
+Finally, we define a 99% confidence interval of our observed accuracy on the test set for which we believe the real accuracy should be using the Central Limit Theory (CLT) and Hoeffding inequality.
 
